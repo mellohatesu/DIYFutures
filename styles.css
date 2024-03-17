@@ -1,0 +1,216 @@
+
+
+
+.intro{
+    padding-top: 10px;
+}
+
+@font-face {
+    font-family: 'solanel'; /*a name to be used later*/
+    src: url("fonts/solanelRegular.otf"); /*URL to font*/
+
+}
+
+@font-face {
+    font-family: 'orbitron'; /*a name to be used later*/
+    src: url("fonts/Orbitron-SemiBold.ttf"); /*URL to font*/
+
+}
+.background-clip{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    padding: 0%;
+    min-width: 0;
+    overflow: hidden;
+}
+
+#enterButton{
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid white;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "solanel";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    min-height: 70px;
+    min-width: 90px;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+#enterButton:hover {
+  color: white;
+  background-color: #fa6ebb;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+}
+
+#melloLogo{
+    color: white;
+    font-family: "solanel";
+    font-size: 20px;
+    justify-content: center;
+    max-width: 20px;
+    text-align: center;
+    opacity: 50%;
+    margin: auto;
+    position: fixed;
+    right: 98%;
+}
+
+.logoImage:hover{
+    opacity: 100%;
+}
+
+
+.logoImage{
+    z-index: -2;
+}
+
+.sidenav a{
+    text-decoration: none;
+    font-family: "solanel";
+    display: block;
+    padding: 5%;
+    text-wrap: nowrap;
+    font-size: larger;
+    color: grey;
+}
+
+.sidenav a:hover{
+    color: #fa6ebb;
+}
+
+.sidenav{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 10%;
+    padding-left: 2%;
+    min-width: 200px;
+}
+
+.textWrapper{
+    font-family: "solanel";
+    font-weight: 10;
+    line-height: normal;
+    margin: 0;
+    min-height: 70px;
+    min-width: 90px;
+    outline: none;
+    padding: 75px 250px;
+    text-align: left;
+    text-decoration: none;
+}
+
+.entry{
+    font-family: "orbitron";
+    opacity: 60%;
+    margin: 0%;
+}
+
+.mainText{
+    font-family: "solanel";
+    font-weight: 10;
+    line-height: normal;
+    margin: 0;
+    outline: none;
+    text-align: left;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.subHeading{
+    font-family: "solanel";
+    font-weight: 10;
+    line-height: normal;
+    margin: 0%;
+    outline: none;
+    text-align: left;
+    text-decoration: none;
+    font-size: large;
+    padding-top: 1%;
+    padding-bottom: 0%;
+
+}
+.infoText{
+    padding-top: 5px;
+    padding-left: 1px;
+    line-height: 30px;
+    margin: 0;
+}
+
+
+hr{
+    width: 30%;
+    margin-left: 7px;
+    box-shadow: 10px;
+}
+
+.djImage{
+    max-width: 25%;
+    max-height: auto;
+    float: right;
+    padding: 5%;
+    padding-right: 0%;
+    border-radius: 20px;
+}
+
+.side{
+    padding: 10px;
+
+}
+
+strong{
+    color:#fa6ebb;
+}
+.jumpto{
+    position: fixed;;
+    flex-direction: column;
+    margin-left: 90%;
+    overflow-x: hidden;
+    max-width: 210px;
+    padding-right: 20px;
+}
+.jumpto a{
+    text-decoration: none;
+    font-family: "solanel";
+    display: block;
+    padding: 5%;
+    text-wrap: nowrap;
+    font-size: larger;
+    color: grey;
+    float: right;
+}
+
+.jumpto a:hover{
+    color: #fa6ebb;
+}
+
+.yapping{
+    line-height: 25px;
+}
